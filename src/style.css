@@ -8,9 +8,6 @@
     align-items: stretch;
     height: 600px;
  }
- .container div {
-     /* background-color: red; */
- }
 
  .content-adi {
    height: 60px;
@@ -18,7 +15,9 @@
     justify-content: center;
     align-content: center;
  }
-
+  .combo-box-style{
+    
+  }
  .content-ad {
     height: 20px;
     width: 20%;
@@ -46,11 +45,25 @@
   }
 
   .mages {
+    position: relative;
       text-align: center;
       width: 18%;
       height: 61%;
       margin: 1%;
       background-color: blue;
+  }
+  .logo-mage {
+    position:absolute;
+    right: 6%;
+    top:0;
+    width: 45px;
+    height: 45px;
+    /* background-color: orange; */
+  }
+
+  .logo-mage img {
+    width: 100%;
+    height: 100%;
   }
 .mages h2 {
     margin:0;
@@ -59,6 +72,7 @@
     width: 63%;
     height: 124px;
     border-radius: 60px;
+    
       
   }
   .info-mage img {
